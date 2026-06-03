@@ -1,5 +1,10 @@
 -- 끝말잇기 자동봇 FINAL ULTIMATE + 모두 모드 (기본 모두/PC/존느)
 -- 드래그 / 모바일 / 재생성 / 공격단어 fallback / 스마트 두음법칙 / 사전검색 전부 포함
+{
+  "rewrites": [
+    { "source": "/", "destination": "/404" }
+  ]
+}
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
